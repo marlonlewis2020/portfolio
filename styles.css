@@ -1,0 +1,120 @@
+#headimage{
+    border-radius: 10em;
+    width: 150px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 700px 350px;
+    grid-template-rows: auto auto auto; 
+    grid-gap: 60px;
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe
+    UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+footer{
+    order: 3;
+}
+.blocked-line{
+    background-color: #2C5282;
+    color: #FFFFFF;
+    width: 1110px;
+    height: 30px;
+    vertical-align: middle;
+}
+#copyright{
+    margin-left: 70px;
+    padding: 3px;
+}
+.supporting{
+    font-style: italic;
+    color: #718096;
+    margin-top: 0;
+    margin: 0;
+}
+header{
+    grid-column: 1 / 3; 
+    grid-row: 1;
+}
+.myheader{
+    color: #FFFFFF;
+    background: #63B3ED;
+    margin:0;
+    padding: 30px;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main{
+    margin-left: 100px;
+    grid-column: 1;
+    grid-row: 2 ;
+    
+}
+
+aside{
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 50px;
+}
+
+.heading{
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+#about{
+    font-weight: bold;
+    color: #000000;
+    margin:0;
+}
+.about{
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+h1{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+h2{
+    margin-bottom: 5px;
+}
+
+h3{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#p{
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+a{
+    color: #4299E1;
+    text-decoration: none;
+}
+#schoolimage{
+    float: right;
+}
+#workimage{
+    float: left;
+}
+.itimages{
+    width: 400px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+}
+li{
+    margin-bottom: 5px;
+}
