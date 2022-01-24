@@ -54,6 +54,9 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: none;
+    border-radius: 5px;
+    /* box-shadow: 5px 0px #d8d3d3; */
 }
 
 main{
