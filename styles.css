@@ -43,8 +43,9 @@ header{
     grid-row: 1;
 }
 .myheader{
-    color: #FFFFFF;
-    background: #63B3ED;
+    color: #350606;
+    background-image: url(images/background-png.png);
+    /* background: #63B3ED; */
     margin:0;
     padding: 30px;
     width: 100%;
@@ -69,14 +70,14 @@ aside{
 }
 
 .heading{
-    color: #48BB78;
+    color: #040e5f;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
 }
 
 #about{
     font-weight: bold;
-    color: #000000;
+    color: #350606;
     margin:0;
 }
 .about{
@@ -84,7 +85,7 @@ aside{
     padding: 20px;
 }
 .skills_about{
-    padding-left: 5px;
+    padding-left: 12px;
 }
 .about_indent{
     padding-left: 10px;
@@ -105,7 +106,9 @@ h3{
 }
 #p{
     margin: 0;
-    color: #FFFFFF;
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
     font-size: 18px;
 }
 a{
