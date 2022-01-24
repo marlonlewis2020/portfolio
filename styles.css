@@ -44,8 +44,6 @@ header{
 }
 .myheader{
     color: #350606;
-    background-image: url(images/background-png.png);
-    /* background: #63B3ED; */
     margin:0;
     padding: 30px;
     width: 100%;
@@ -54,9 +52,20 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: none;
-    border-radius: 5px;
+    position: relative;
     /* box-shadow: 5px 0px #d8d3d3; */
+}
+
+.myheader::after{
+    content: "";
+    background-image: url(images/background-png.png);
+    opacity: 0.5;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
 }
 
 main{
@@ -86,6 +95,7 @@ aside{
 .about{
     background-color: #E2E8F0;
     padding: 20px;
+    border-radius: 15px;
 }
 .skills_about{
     padding-left: 12px;
@@ -127,6 +137,8 @@ a{
 .itimages{
     width: 400px;
     padding: 10px;
+    border: none;
+    border-radius: 25px;
 }
 
 ul {
