@@ -23,7 +23,7 @@ body{
 body::after{
     background-color: #e1d8fa;
     opacity: 0.3;
-    content: "";
+    /* content: ""; */
     z-index: -1;
     left: 0;
     right: 0;
