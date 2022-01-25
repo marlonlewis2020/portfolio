@@ -20,7 +20,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container::after{
+body::after{
     background-color: #e1d8fa;
     opacity: 0.3;
     content: "";
