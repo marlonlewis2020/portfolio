@@ -20,17 +20,17 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body::after{
+/* body::after{
     background-color: #e1d8fa;
     opacity: 0.3;
-    /* content: ""; */
+    content: "";
     z-index: -1;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     position: absolute;
-}
+} */
 
 footer{
     grid-column: 1/4;
