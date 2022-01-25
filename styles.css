@@ -1,21 +1,42 @@
 #headimage{
     border-radius: 10em;
     width: 150px;
+    box-shadow: 0 0 3px rgb(136, 131, 131);
 }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto auto auto; 
     grid-gap: 60px;
-    font-size: 18px;
+    font-size: 16px;
     color: #2D3748;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe
-    UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.container::after{
+    background-color: #e1d8fa;
+    opacity: 0.3;
+    content: "";
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
 footer{
     grid-column: 1/4;
     grid-row: 3;
 }
+
 .blocked-line{
     background-color: #2C5282;
     color: #FFFFFF;
@@ -23,10 +44,12 @@ footer{
     height: 30px;
     vertical-align: middle;
 }
+
 #copyright{
     margin-left: 70px;
     padding: 3px;
 }
+
 .supporting{
     font-style: italic;
     color: #718096;
@@ -85,21 +108,27 @@ aside{
     color: #040e5f;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
+    text-decoration: underline;
 }
 
 #about{
     font-weight: bold;
     color: #350606;
     margin:0;
+    
 }
+
 .about{
     background-color: #E2E8F0;
     padding: 20px;
     border-radius: 15px;
+    box-shadow: 0 0 5px rgb(162, 162, 162);
 }
+
 .skills_about{
     padding-left: 12px;
 }
+
 .about_indent{
     padding-left: 10px;
 }
@@ -108,6 +137,7 @@ h1{
     margin-top: 10px;
     font-size: 36px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 2px #fae652;
 } 
 h2{
     margin-bottom: 5px;
@@ -123,6 +153,7 @@ h3{
     font-style: italic;
     color: #000000;
     font-size: 18px;
+    text-shadow: 0 0 5px #ffffff;
 }
 a{
     color: #4299E1;
@@ -136,7 +167,7 @@ a{
 }
 .itimages{
     width: 400px;
-    padding: 10px;
+    margin: 10px;
     border: none;
     border-radius: 25px;
 }
@@ -147,12 +178,17 @@ ul {
 }
 .small{
     width: 100%;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     margin-bottom: 0px;
 }
 li{
-    margin: auto;
-    padding: 5px 0px;
+    margin: 0 auto;
+    padding: 0px 0px;
+}
+
+li p{
+    margin: 0 auto;
+    padding: 0;
 }
 
 .demoimages{
