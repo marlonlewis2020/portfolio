@@ -41,13 +41,16 @@ footer{
     background-color: #2C5282;
     color: #FFFFFF;
     width: 100%;
-    height: 30px;
+    height: 60px;
     vertical-align: middle;
 }
 
 #copyright{
-    margin-left: 70px;
+    /* margin-left: 70px; */
+    text-align: center;
     padding: 3px;
+    padding-top: 30px;
+    font-size: small;
 }
 
 .supporting{
