@@ -162,6 +162,14 @@ a{
     color: #4299E1;
     text-decoration: none;
 }
+
+a:hover{
+    position: relative;
+    font-weight: bold;
+    left: 5px;
+    color: #040e5f;
+    opacity: 0.5;
+}
 #schoolimage{
     float: right;
 }
