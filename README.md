@@ -1,3 +1,3 @@
-# info2180-lab2
+# My Portfolio
 
-This is Lab 2 for Marlon Lewis
+This the Portfolio for Marlon Lewis
