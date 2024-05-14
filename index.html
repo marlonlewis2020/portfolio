@@ -192,7 +192,12 @@
  </aside>
  <footer>
      <div class="blocked-line">
-        <p id="copyright">Copyright &copy; <script>new Date().getFullYear()</script>, Marlon Lewis</p>
+        <p id="copyright"></p>
+        <script>
+            var this_year = new Date().getFullYear();
+            var cr = `Copyright &copy; ${this_year}, Marlon Lewis`;
+            $('#copyright').html(cr);
+        </script>
     </div>
  </footer>
 </div>
